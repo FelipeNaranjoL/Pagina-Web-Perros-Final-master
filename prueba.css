@@ -1,0 +1,75 @@
+li{
+    list-style-type: none;
+    
+}
+li a{
+    font-size: 30px;
+    padding: 23px;
+    background-color: rgba(31, 98, 187, 0.774);
+    color: rgb(255, 255, 255);
+    float: left;
+    text-decoration: none;
+}
+
+a:hover{
+    color: purple;
+    background-color: rgb(243, 243, 243);
+}
+
+a:active{
+    background-color: black;
+}
+
+/* ------------------------------------------------------------------- */
+
+.titulo{
+    font-size: 50px;
+    text-align: right;
+    padding: 15px;
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: url(/img/fondo.jpg)
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: purple;
+    background-color: rgb(29, 226, 226);
+}
+
+/* ------------------------------------------------------------------- */
+
+.ingreso_datos{
+    background-color: rgb(255, 116, 2);
+    padding: 20px;
+    margin: 60px;
+}
+
+.ingreso_datos label{
+    font-size: 20px;
+}
+
+
+.resultado_busqueda p{
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+}
+
+
+img{
+    background-color: red;
+    padding: 50px;
+    display: block;
+    float: left;
+}
+
+h2{
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 30px;
+}

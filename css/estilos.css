@@ -1,0 +1,237 @@
+.resolucion{
+    width: 99%;
+    text-align: center;
+}
+/*xs*/
+@media screen and (max-width: 1200px){
+    .oferta{ display: none;}
+}
+
+
+/* s */
+
+@media screen and (min-width:1170px){
+    .oferta{ display: block;}
+    .contenido_1,.contenido_2,.contenido_3{
+        display: block;
+    }
+}
+/* ------------------------------------------------------------------- */
+
+li{
+    list-style-type: none;
+    
+}
+li a{
+    font-size: 30px;
+    padding: 23px;
+    background-color: rgba(31, 98, 187, 0.774);
+    color: rgb(255, 255, 255);
+    float: left;
+    text-decoration: none;
+}
+
+a:hover{
+    color: purple;
+    background-color: rgb(243, 243, 243);
+}
+
+a:active{
+    background-color: black;
+}
+
+/* ------------------------------------------------------------------- */
+
+.titulo{
+    font-size: 50px;
+    text-align: right;
+    padding: 15px;
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ------------------------------------------------------------------- */
+
+.cara_principal{
+    float: left;
+    width: 300px;
+    height: 200px; /* varia este valor para que imagen quede dentro del background*/
+    padding: 0 10px 0 0;
+}
+
+.texto_1{
+text-align: justify;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.parrafo_1{
+    background-color: cadetblue;
+    border: 2px solid black;
+    padding: 8px;
+    width: auto;
+    height: auto;
+}
+
+/* ------------------------------------------------------------------- */
+
+#barra_1{
+    background-color: rgb(165, 0, 230);
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* ------------------------------------------------------------------- */
+
+.pc_1 img{
+    float: left;
+    width: 200px;
+    height: 250px;
+    padding: 0 10px 0 0;
+}
+
+.pc_1 p{
+    text-align: justify;
+    font-size: 20px;
+}
+.contenido_1 .precio_1{
+    color: purple;
+    text-align: justify;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.contenido_1{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    border: 2px solid black;
+}
+
+.pc_1 .titulo_barra_1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* ------------------------------------------------------------------- */
+
+.oferta_pc .pc_oferta{
+    width: 700px;
+    height: 300px;
+    padding: 0 10px 0 0;
+}
+.oferta_pc p{
+    text-align: center;
+    font-size: 20px;
+    background-color: hotpink
+    
+
+}
+
+.oferta_pc .titulo_oferta{
+    font-size: 39px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(165, 0, 230);
+}
+
+.oferta_pc.nombre_oferta{ /* este es el titulo, no me ejecuta cambios de color, por si quieres modificarlo */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.oferta{
+    float: right;
+    width: 700px;
+    height: 870px;
+    background-color:  rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+
+.oferta .precio_oferta{
+    color: purple;
+    text-align: center;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+
+/* ------------------------------------------------------------------- */
+
+
+.pc_2 img{
+    float: left;
+    width: 200px;
+    height: 250px;
+    padding: 0 10px 0 0;
+}
+
+.pc_2 p{
+    text-align: justify;
+    font-size: 20px;
+}
+.contenido_2{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    border: 2px solid black;
+}
+.contenido_2 .precio_2{
+    color: purple;
+    text-align: justify;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pc_2 .titulo_barra_2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+/* ------------------------------------------------------------------- */
+
+
+.pc_3 img{
+    float: left;
+    width: 200px;
+    height: 250px;
+    padding: 0 10px 0 0;
+}
+
+.pc_3 p{
+    text-align: justify;
+    font-size: 20px;
+}
+.contenido_3{
+    background-color: rgb(255, 254, 254);
+    width: 40%;
+    border: 2px solid black;
+    float: left;
+}
+.contenido_3 .precio_3{
+    color: purple;
+    text-align: justify;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pc_3 .titulo_barra_3{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* ------------------------------------------------------------------- */
+
+
+body{
+    background: url(/img/fondo.jpg)
+}
+
+/* ------------------------------------------------------------------- */
+
+/* ENLACES */
+.precio_1 a, .precio_2 a, .precio_3 a, .precio_oferta a{
+    color: purple;
+}
+
+.precio_1 a:hover, .precio_2 a:hover, .precio_3 a:hover, .precio_oferta a:hover{
+    color: purple;
+}

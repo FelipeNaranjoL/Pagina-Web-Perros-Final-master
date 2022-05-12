@@ -1,0 +1,63 @@
+.resolucion{
+    width: 99%;
+    text-align: center;
+}
+/*xs*/
+@media screen and (max-width: 800px){
+    .texto_1 img{ display: none;}
+}
+
+
+
+li{
+    list-style-type: none;
+    
+}
+li a{
+    font-size: 30px;
+    padding: 23px;
+    background-color: rgba(31, 98, 187, 0.774);
+    color: rgb(255, 255, 255);
+    float: left;
+    text-decoration: none;
+}
+
+a:hover{
+    color: purple;
+    background-color: rgb(243, 243, 243);
+}
+
+a:active{
+    background-color: black;
+}
+
+/* ------------------------------------------------------------------- */
+
+.titulo{
+    font-size: 50px;
+    text-align: right;
+    padding: 15px;
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ------------------------------------------------------------------- */
+.texto_1{
+    background-color: rgb(165, 0, 230);
+    font-size: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* ------------------------------------------------------------------- */
+
+.texto_1 img{
+    width: 500px;
+    height: 300px;
+    align-items: center;
+}
+
+/* ------------------------------------------------------------------- */
+
+body{
+    background: url(/img/fondo.jpg)
+}

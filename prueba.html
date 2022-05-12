@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de prueba</title>
+    <!-- link de boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="prueba.css">
+</head>
+<body> 
+<div class="container">
+    <ul>
+        <li><a href="/index.html">Juguetes</a></li>
+        <li><a href="/paginas/alimentos.html">Alimentos</a></li>
+        <li><a href="/paginas/formulario.html">Formulario</a></li>
+        <li><a href="/prueba.html">Pelis</a></li>
+    </ul>
+    <h1 class="titulo">Mundo Animal</h1>
+</div>
+
+    <h1>Peliculas para ver con tu mascota</h1>  <br> <br>
+
+    <div class="ingreso_datos">
+        <form id="formulario_pelis">
+            <label for="nombre de la pelicula">Nombre de la pelicula:</label>
+            <input type="text" name="pelicula" id="pelicula"
+            placeholder="ejemplo 'batman'">
+            <br><br>
+            <label for="Mensaje">Presione "Enter" para buscar la pelicula</label>
+        </form>
+    </div>
+
+    <div id="resultado_busqueda">
+
+    </div>
+
+
+    <!-- enlace de jquery de google? -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/prueba.js"></script>
+</body>
+</html>
